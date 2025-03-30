@@ -7,11 +7,11 @@ export default function header() {
         <h1 className='text-md text-green-800 md:text-2xl font-bold'>
           Sulawesi Fresh <span className=' text-sm text-black block text-center'>FoodStufFs</span>
         </h1>
-        <div className='border rounded-lg flex border-primary items-center px-3 gap-2 w-2/4'>
+        <div className='border rounded-lg md:flex border-primary items-center px-3 gap-2 hidden md:w-2/4'>
           <FaSearch className='text-black text-md' />
-          <input type='text' className='border-none p-1 focus:outline-none text-slate-600' />
+          <input type='text' className='border-none p-1 focus:outline-none text-slate-600' placeholder="Pencarian.." />
         </div>
-        <Navbar />
+        <Navbar/>
       </div>
     </header>
   )
